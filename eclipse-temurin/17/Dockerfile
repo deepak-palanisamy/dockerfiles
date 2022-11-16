@@ -28,9 +28,9 @@ RUN echo Verifying installation ... \
     && echo Complete.
 
 # docker build & run commands
-    # docker build -t breezewaredev/eclipse-temurin:17.0.1_8-jre-alpine eclipse-temurin/17/.
+    # docker build -t breezewaredev/eclipse-temurin:17.0.2_8-jre-alpine eclipse-temurin/17/.
 # Run eclipse-temurin container
-    # as root(default) user - docker run --rm -it breezewaredev/eclipse-temurin:17.0.1_8-jre-alpine
-    # as app user - docker run --rm -it -u app breezewaredev/eclipse-temurin:17.0.1_8-jre-alpine
-    # as alpine user - docker run --rm -it -u alpine breezewaredev/eclipse-temurin:17.0.1_8-jre-alpine
-    # as java user - docker run --rm -it -u java breezewaredev/eclipse-temurin:17.0.1_8-jre-alpine
+    # as root(default) user - docker run --rm -it breezewaredev/eclipse-temurin:17.0.2_8-jre-alpine
+    # as app user - docker run --rm -it -u app breezewaredev/eclipse-temurin:17.0.2_8-jre-alpine
+    # as alpine user - docker run --rm -it -u alpine breezewaredev/eclipse-temurin:17.0.2_8-jre-alpine
+    # as java user - docker run --rm -it -u java breezewaredev/eclipse-temurin:17.0.2_8-jre-alpine
